@@ -38,6 +38,10 @@
 
 /* Individual Section */
 body {
+  width: 100%;
+  margin: 0 auto;
+}
+.sub-body {
   width: 1320px;
   margin: 0 auto;
 }
@@ -444,4 +448,113 @@ form {
   font-weight: 600;
   text-align: center;
   text-transform: capitalize;
+}
+
+footer {
+  height: 609px;
+  width: 100%;
+  background-color: rgb(7, 2, 17);
+}
+
+.sub-footer {
+  width: 1320px;
+  margin: 0 auto;
+  background-color: rgb(7, 2, 17);
+  height: 100%;
+  padding: 120px 140px;
+}
+
+.footer1 .description {
+  width: 375px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 49.5px;
+}
+
+.footer1 .contact .phone-number a {
+  margin-right: 135px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer1 .websites a {
+  margin-right: 135px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer1 .websites a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.footer1 .phone-number a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.phone-number,
+.websites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer2 {
+  /* width: 400px; */
+  /* margin: 0 auto; */
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 49px;
+}
+.footer2 img {
+  margin-right: 24.5px;
+  width: 62.5px;
+  height: 62.5px;
+  left: 1.17%;
+  right: 1.17%;
+  top: 1.17%;
+  bottom: 1.17%;
+}
+
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.footer3 p,
+a {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer3 .unsubscribe a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+hr {
+  color: rgba(255, 255, 255, 0.15);
 }
