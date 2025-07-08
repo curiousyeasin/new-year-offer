@@ -212,6 +212,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 120px;
 }
 
 .coming-soon-left {
@@ -259,7 +260,7 @@ body {
 }
 
 .coming-soon-right {
-  padding-left: 118px;
+  padding-left: 82px;
   width: 440px;
 }
 
@@ -273,11 +274,61 @@ body {
 }
 
 .coming-soon-right p {
-  width: 276px;
+  width: 353px;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 43px;
+}
+
+.holiday-sales-head {
+  margin-bottom: 64px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.holiday-sales-head p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.holiday-sales-head h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.holiday-sales-head .details {
+  width: 900px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.holiday-sales-gift {
+  height: 660px;
+  background-image: url(../images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.holiday-sales-gift .box-logo > img,
+.discount-logo > img {
+  margin-bottom: -100px;
 }
