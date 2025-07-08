@@ -167,3 +167,42 @@ body {
 .party-right {
   padding-top: 68px;
 }
+
+.datetime-section {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 482px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.datetime-section .place,
+.date,
+.time {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.datetime-section button {
+  margin-top: 80px;
+  border-radius: 8px;
+  background-color: red;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
